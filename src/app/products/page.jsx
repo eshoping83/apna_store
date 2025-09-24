@@ -69,7 +69,7 @@ export default function ProductsPage() {
                     {product.description}
                   </p>
                   <p className="text-rose-600 font-bold mt-3 text-lg">
-                    ${product.price}
+                    RS {product.price}
                   </p>
                   <button className="mt-4 bg-gradient-to-r from-rose-500 to-pink-600 text-white py-2 px-4 rounded-lg hover:opacity-90 transition self-start">
                     View Product

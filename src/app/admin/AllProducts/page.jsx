@@ -39,7 +39,7 @@ export default function AllProducts() {
           >
             <img src={p.imageUrl} alt={p.name} className="h-40 w-full object-cover rounded-md mb-3" />
             <h3 className="font-semibold text-lg">{p.name}</h3>
-            <p className="text-gray-600">${p.price}</p>
+            <p className="text-gray-600">RS {p.price}</p>
             <div className="mt-3 flex gap-2">
               <button
                 onClick={() => editProduct(p._id)}

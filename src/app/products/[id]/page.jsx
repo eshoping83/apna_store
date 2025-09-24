@@ -87,7 +87,7 @@ export default function ProductDetail({ params }) {
         <div className="flex-1 space-y-4">
           <h1 className="text-3xl font-bold text-gray-900">{product.name}</h1>
           <p className="text-gray-700">{product.description}</p>
-          <p className="text-rose-600 font-bold text-xl">${totalPrice}</p>
+          <p className="text-rose-600 font-bold text-xl">RS {totalPrice}</p>
 
           <div className="flex items-center gap-3">
             <label className="font-medium">Quantity:</label>

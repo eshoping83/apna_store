@@ -279,7 +279,7 @@ export default function AdminPage() {
                     />
                   </div>
                   <h3 className="text-lg font-bold text-gray-800">{p.name}</h3>
-                  <p className="text-gray-600 font-medium mb-2">${p.price}</p>
+                  <p className="text-gray-600 font-medium mb-2">RS {p.price}</p>
                   <p className="text-gray-700 flex-grow">{p.description}</p>
                   <div className="flex gap-2 mt-4">
                     <button
